@@ -7,7 +7,7 @@
     <style>
         .column {
             float: left;
-            width: 35%;
+            width: 38%;
 			min-width: 110px;
 			margin-right: 0%;
 			margin-left: 0%;
@@ -15,15 +15,14 @@
 
         .columnLeft {
             float: left;
-            width: 25%;
+            width: 325px;
             margin-left: 0%;
             background-color: #E7E7E7;
-			min-width: 275px;
         }
 
         .columnRight {
             float: left;
-            width: 69%;
+            width: 600px;
             margin-left: 3%;
         }
 
@@ -42,27 +41,42 @@
         }
 
 		.mainBox {
-			width: 90%;
+			width: 1000px;
 			margin: auto;
-		  	margin-top: 18px;
+		  	margin-top: 36px;
 			background-color: white;
 			padding: 10px;
 			font-family: Arial;
-			min-width: 750px;
-			max-width: 1500px;
 			border: 3px solid black;
 			border-radius: 12px;
 		}
+
+		.headBox {
+			height: 250px;
+		}
+
+		h1, h2, h3, h4 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		ul, p {
+			margin-top: 3px;
+			margin-bottom: 1px;
+		}
+
     </style>
 
-    <body bgcolor = #333333>
+    <body bgcolor = #333333;>
 		<div class="mainBox">
-	        <h1 style = "text-align: center"> Hi there,<br>Welcome to my website!</h1>
-	        <hr>
+			<div class = "headBox">
+	        	<h1 style = "text-align: center; padding: 75px 0;"> Hi There,<br>Welcome to My Website!</h1>
+			</div>
+			<hr>
 	
 	        <div class = "row">
 	            <div class = "columnLeft">
-	                <h3 style="margin-left: 3%">My Skills</h3>
+	                <h2 style="margin-left: 3%">My Skills</h2>
 	                <div class = row>
 	                    <div class = 'column'>
 	                        <ul>
@@ -76,31 +90,35 @@
 	                        <ul>
 	                            <li>Pytorch</li>
 	                            <li>Agile Development</li>
-	                            <li>Swift++</li>
+	                            <li>Swift</li>
 	                        </ul>                    
 	                    </div>
 	                </div>
+
+					<br>
 	
-	                <h3 style = "margin-left: 3%;">A Few Projects</h3>
-	                <p style = "margin-left: 3%; margin-bottom: 0%;">Restaurant Finder Mobile App</p>
-	                <ul style = "margin-left: 3%;">
-	                    <li>Implemented keyword analysis system and API pull to identify and extract 3 keywords from existing online restaurant reviews. </li>
-	                    <li>Assisted scrum master in organizing and facilitating 12 daily standups for a team of 4.</li>
-	
-	                </ul>
+	                <h2 style = "margin-left: 3%;">A Few Projects</h2>
+					<div style = "margin-right: 5%; margin-left: 3%;">
+						<p><b>Restaurant Finder Mobile App</b></p>
+						<ul>
+							<li>Implemented keyword analysis system and API pull to identify and extract 3 keywords from existing online restaurant reviews. </li>
+							<li>Assisted scrum master in organizing and facilitating 12 daily standups for a team of 4.</li>
+		
+						</ul>
+					</div>
 	            </div>
 	
 	            <div class = "columnRight">
-	                <h3>My Education</h3>
+	                <h2>My Education</h2>
 	                <p class = "alignleft"><b>New York University</b></p>
-	                <p class = "alignright">September 2020 - May 2024</p>
+	                <p class = "alignright"><i>September 2020 - May 2024</i></p>
 	                <div style="clear: both;"></div>
 	
 	                <p><b>Majors:</b> Computer Science, Political Science</p>
 	                <p><b>GPA:</b> 3.75</p>
 	                <p><b>Coursework:</b> Probability and Statistics, Natural Language Processing, Intro to Robot Intelligence</p>
 	
-	                <h3>My Work Experience</h3>
+	                <h2>My Work Experience</h2>
 	                <p>Test</p>
 	            </div>
 	        </div>
