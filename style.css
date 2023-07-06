@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(roboto/Roboto-Medium.ttf);
+    src: url(assets/roboto/Roboto-Medium.ttf);
 }
 @font-face {
     font-family: Roboto;
-    src: url(roboto/Roboto-Bold.ttf);
+    src: url(assets/roboto/Roboto-Bold.ttf);
     font-weight: bold;
 }
 
@@ -42,9 +42,13 @@
     margin-top: 80px;
     font-family: Roboto;
     border-radius: 15px;
-    overflow: hidden;
     background-color: #003152;
     padding: 75px;
+
+    background-image: url(assets/cornerBands.png);
+    background-repeat: no-repeat;
+    background-position: 960px -70px;
+    background-size: 300px 300px;
 }
 
 .center {
@@ -60,6 +64,12 @@
     justify-content: left;
     align-items: center;
     border-radius: 15px;
+}
+
+.corner {
+    position: absolute;
+    top:0;
+    right:0;
 }
 
 p, a, h1, h2, h3 {
