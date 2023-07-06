@@ -7,7 +7,7 @@
     <style>
         .column {
             float: left;
-            width: 38%;
+            width: 40%;
 			min-width: 110px;
 			margin-right: 0%;
 			margin-left: 0%;
@@ -15,7 +15,7 @@
 
         .columnLeft {
             float: left;
-            width: 275px;
+            width: 280px;
             margin-left: 0%;
         }
 
@@ -25,6 +25,7 @@
             margin-left: 3%;
 			padding-left: 3%;
 			border-left: 1px solid #9A9A9A;
+			padding-bottom: 2%;
         }
 
         .row:after{
@@ -57,7 +58,7 @@
 		}
 
 		.footBox {
-			height: 100px;
+			height: 75px;
 		}
 
 		h1, h2, h3, h4 {
@@ -70,9 +71,15 @@
 			margin-bottom: 1px;
 		}
 
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
     </style>
 
-    <body bgcolor = #333333;>
+    <body style = "background-color: #003152">
 		<div class="mainBox">
 			<div class = "headBox">
 	        	<h1 style = "text-align: center; padding: 75px 0;"> Hi There,<br>Welcome to My Website!</h1>
@@ -81,6 +88,7 @@
 	
 	        <div class = "row">
 	            <div class = "columnLeft">
+					<img src = "assets/placeholder.png" style = "width:85%; margin-top: 3%; margin-bottom: 3%" class = "center">
 	                <h2 style="margin-left: 3%">My Skills</h2>
 	                <div class = row>
 	                    <div class = 'column'>
@@ -104,7 +112,7 @@
 	
 	                <h2 style = "margin-left: 3%;">A Few Projects</h2>
 					<div style = "margin-right: 5%; margin-left: 3%;">
-						<p><b>Restaurant Finder Mobile App</b></p>
+						<a href = "https://github.com/kairuihuang/archie-app"><b>Restaurant Finder Mobile App</b></a>
 						<ul>
 							<li>Implemented keyword analysis system and API pull to identify and extract 3 keywords from existing online restaurant reviews. </li>
 							<li>Assisted scrum master in organizing user stories and facilitating 12 daily standups for a team of 4.</li>
@@ -164,7 +172,7 @@
 	        </div>
 
 			<div class = "footBox">
-				<p style = "text-align: center; padding: 50px 0;">Thanks for visiting!</p>
+				
 			</div>
 		</div>
     </body>
