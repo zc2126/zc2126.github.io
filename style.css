@@ -1,30 +1,30 @@
 
-.column {
+@font-face {
+    font-family: Roboto;
+    src: url(roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+.biColumn {
     float: left;
-    width: 40%;
+    width: 45%;
     min-width: 110px;
     margin-right: 0%;
     margin-left: 0%;
 }
 
-.columnLeft {
+.triColumn {
     float: left;
-    width: 280px;
-    margin-left: 0%;
+    width: 25%;
+    min-width: 25%;
 }
 
-.columnRight {
-    float: left;
-    width: 550px;
-    margin-left: 3%;
-    padding-left: 3%;
-    border-left: 1px solid #9A9A9A;
-    padding-bottom: 2%;
-}
-
-.row:after{
-    content: "";
-    display: table;
+.row {
+    display: grid;
     clear: both;
 }
 
@@ -37,36 +37,31 @@
 }
 
 .mainBox {
-    width: 925px;
+    width: 1050px;
     margin: auto;
-      margin-top: 36px;
-    background-color: white;
-    padding: 15px;
-    font-family: Arial;
-    border: 3px solid black;
-    border-radius: 12px;
-}
-
-.headBox {
-    height: 250px;
-}
-
-.footBox {
-    height: 75px;
-}
-
-h1, h2, h3, h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-ul, p {
-    margin-top: 3px;
-    margin-bottom: 1px;
+    margin-top: 80px;
+    font-family: Roboto;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #003152;
+    padding: 75px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-radius: 15px;
+}
+
+p, a, h1, h2, h3 {
+    color: white;
 }
