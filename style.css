@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(assets/roboto/Roboto-Medium.ttf);
+    src: url(assets/roboto/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: Roboto;
@@ -20,24 +20,23 @@
 .mainBox {
     width: 1150px;
     margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 35px;
     font-family: Roboto;
     border-radius: 15px;
     background-color: #003152;
     padding: 75px;
 
-    background-image: url(assets/cornerBands.png);
+    /*background-image: url(assets/cornerBands.png);
     background-repeat: no-repeat;
     background-position: 1150px -70px;
-    background-size: 200px 200px;
+    background-size: 200px 200px;*/
 }
 
-.subBox {
+.mainSubBox {
     margin: auto;
     font-family: Roboto;
     padding: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     border: 2px solid white ;
 
     background-image: url(assets/headshot.png);
@@ -46,8 +45,15 @@
     background-size: 475px;
 }
 
+.subBox {
+    margin: auto;
+    font-family: Roboto;
+    padding: 50px;
+    padding-bottom: 30px;
+    border: 2px solid white;
+}
+
 .header {
-    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -58,15 +64,22 @@
 .flexBox {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: center;
     padding: 10px;
 }
 
-p, a, h1, h2, h3 {
+/*p, a, h1, h2, h3 {
     color: white;
+}*/
+
+.noSpace {
+    margin: 1px;
+    padding: 1px;
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-size: 105%;
 }

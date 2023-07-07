@@ -1,21 +1,121 @@
 <!DOCTYPE html>
-
+<!-- Blue: #003152 | Gray: #ACACAC-->
 <html>
     <head>
-        <title>My Resume</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Jeremy Cao</title>
+		<link rel="stylesheet" href="style.css">
     </head>
 
     <body style = "background-color: #001E33">
-        <div class="mainBox">
-            <div class="header" style="margin: auto;">
-				<img src = "assets/placeholder2.png" style = "height: 100px; margin-right: 32px; margin-left: 10px">
-				<h1 style = "margin-right: 62px">Jeremy Cao</h1>
-				<a style = "margin-right: 25px" href = "index.html">Home</a>
-				<a style = "margin-right: 25px">My Resume</a>
-				<a>My Interests</a>
+		<div class="mainBox">
+			<!--Header and nav bar-->
+			<div class="header" style="margin: auto; color: #003152">
+				<!--Name and logo-->
+				<div class="flexBox" style="justify-content:left; width: 48%; align-items: center;">
+					<img src = "assets/placeholder2.png" style = "height: 80px; margin-right: 5%; margin-left: 3%">
+					<h1 style = "font-size: 250%;">Jeremy Cao</h1>
+				</div>
+
+				<!--Navbar-->
+				<div class="flexBox" style="justify-content: right; width: 48%; color: #003152; font-size: 115%; align-items: center;">
+					<a style = "margin-right: 5%;" href = "index.html">Home</a>
+					<a style = "margin-right: 5%;">My Resume</a>
+					<a style="margin-right: 8%;">My Interests</a>
+				</div>
 			</div>
-            <p>test</p>
-        </div>
+
+            <!--Main Resume-->
+            <div class = "subBox" style="color: white;">
+                <!--Education and Skills-->
+                <div class="flexBox" style="margin:0; padding:0;">
+                    <!--Education Section-->
+                    <div style="padding-right: 2%">
+                        <h1>My Education</h1>
+                        <div class="flexBox" style="padding:0px; padding-left:3px; margin:0px; width: 100%">
+                            <div style="width:50%"><p><b>New York University</b></p></div>
+                            <div style="width:50%"><p style="text-align:right;"><i>September 2020 - May 2024</i></p></div>
+                        </div>
+
+                        <p class="noSpace"><b>Majors:</b> Computer Science, Political Science</p>
+                        <p class="noSpace"><b>GPA:</b> 3.75</p>
+                        <p class="noSpace"><b>Coursework:</b> Probability and Statistics, Natural Language Processing, Intro to Robot Intelligence</p>
+                    </div>
+
+                    <hr>
+
+                    <!--Skills Section-->
+                    <div style="padding-left:2%; width: 25%;">
+                        <h1 style="padding-left:0px">My Skills</h1>
+                        <div class="flexBox" style="padding:0px; margin:0px;">
+                            <ul style="padding-left: 15px">
+                                <li>Python</li>
+                                <li>C/C++</li>
+                                <li>HTML/CSS</li>
+                                <li>SQL</li>
+                            </ul>
+                            <ul>
+                                <li>Pytorch</li>
+                                <li>Agile Dev.</li>
+                                <li>Swift</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+
+                <!--Work Section-->
+                <div>
+                    <h1>My Work Experience</h1>
+                    <div class="flexBox" style="padding:0px; padding-left:3px; margin:0px; width: 100%">
+                        <div style="width:50%"><p><b>Reckitt Benckiser Group PLC</b></p></div>
+                        <div style="width:50%"><p style="text-align:right;"><i>June 2023 - August 2023</i></p></div>
+                    </div>
+
+                    <p class="noSpace"><i>Information Technology Intern</i></p>
+                    <ul style="margin-top: 10px">
+                        <li>Reviewed IT system compliance & integration framework across 29 points of control.</li>
+                        <li>Engaged in obtaining network requirements and feedback from 7 users.</li>
+                    </ul>
+                    
+					<br>
+
+                    <div class="flexBox" style="padding:0px; padding-left:3px; margin:0px; width: 100%">
+                        <div style="width:50%"><p><b>NYU Office of Global Services</b></p></div>
+                        <div style="width:50%"><p style="text-align:right;"><i>January 2022 - Present</i></p></div>
+                    </div>
+                    <p class="noSpace"><i>Office Assistant</i></p>
+                    <ul style="margin-top: 10px">
+                        <li>Assisted 350+ students in obtaining visa & immigration advice.</li>
+                        <li>Addressed student concerns with an average handle time of 8.5 minutes online and off-line.</li>
+                    </ul>
+                </div>
+
+                <br>
+                <hr>
+
+                <!--Extracurriculars Section-->
+                <div>
+                    <h1>Some Extracurriculars</h1>
+
+                    <div class="flexBox" style="padding:0px; padding-left:3px; margin:0px;">
+                        <div style="width:50%"><p><b>Under Secretary General of GA</b></p></div>
+                        <div style="width:50%"><p style="text-align:right;"><i>May 2023 - Present</i></p></div>
+                    </div>
+
+                    <br>
+
+                    <div class="flexBox" style="padding:0px; padding-left:3px; margin:0px;">
+                        <div style="width:50%"><p><b>Committee Chair/Moderator</b></p></div>
+                        <div style="width:50%"><p style="text-align:right;"><i>September 2021 - March 2023</i></p></div>
+                    </div>
+                    <ul style="margin-top: 0px">
+                        <li>Led and organized 12-delegate committees over three 4-day conferences.</li>
+                        <li>Coordinated committee events and decisions with positive feedback across 3 anonymous feedback sessions.</li>
+                    </ul>
+                </div>
+            </div>
+		</div>
     </body>
 </html>
