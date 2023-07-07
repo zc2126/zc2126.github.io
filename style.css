@@ -1,31 +1,12 @@
 
-.column {
-    float: left;
-    width: 40%;
-    min-width: 110px;
-    margin-right: 0%;
-    margin-left: 0%;
+@font-face {
+    font-family: Roboto;
+    src: url(assets/roboto/Roboto-Regular.ttf);
 }
-
-.columnLeft {
-    float: left;
-    width: 280px;
-    margin-left: 0%;
-}
-
-.columnRight {
-    float: left;
-    width: 550px;
-    margin-left: 3%;
-    padding-left: 3%;
-    border-left: 1px solid #9A9A9A;
-    padding-bottom: 2%;
-}
-
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+@font-face {
+    font-family: Roboto;
+    src: url(assets/roboto/Roboto-Bold.ttf);
+    font-weight: bold;
 }
 
 .alignleft {
@@ -37,36 +18,68 @@
 }
 
 .mainBox {
-    width: 925px;
+    width: 1150px;
     margin: auto;
-      margin-top: 36px;
+    margin-top: 35px;
+    font-family: Roboto;
+    border-radius: 15px;
+    background-color: #003152;
+    padding: 75px;
+
+    /*background-image: url(assets/cornerBands.png);
+    background-repeat: no-repeat;
+    background-position: 1150px -70px;
+    background-size: 200px 200px;*/
+}
+
+.mainSubBox {
+    margin: auto;
+    font-family: Roboto;
+    padding: 50px;
+    padding-bottom: 30px;
+    border: 2px solid white ;
+
+    background-image: url(assets/headshot.png);
+    background-repeat: no-repeat;
+    background-position: 115% 105%;
+    background-size: 475px;
+}
+
+.subBox {
+    margin: auto;
+    font-family: Roboto;
+    padding: 50px;
+    padding-bottom: 30px;
+    border: 2px solid white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
     background-color: white;
-    padding: 15px;
-    font-family: Arial;
-    border: 3px solid black;
-    border-radius: 12px;
 }
 
-.headBox {
-    height: 250px;
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 }
 
-.footBox {
-    height: 75px;
+/*p, a, h1, h2, h3 {
+    color: white;
+}*/
+
+.noSpace {
+    margin: 1px;
+    padding: 1px;
 }
 
-h1, h2, h3, h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+a {
+    text-decoration: none;
 }
 
-ul, p {
-    margin-top: 3px;
-    margin-bottom: 1px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+p {
+    font-size: 105%;
 }
