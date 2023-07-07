@@ -19,27 +19,40 @@
 
 .mainBox {
     width: 1150px;
-    height: 638px;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 80px;
     font-family: Roboto;
     border-radius: 15px;
     background-color: #003152;
     padding: 75px;
-    padding-bottom: 50px;
 
-    background-image: url(assets/cornerBands.png), url(assets/headshot.png);
+    background-image: url(assets/cornerBands.png);
     background-repeat: no-repeat;
-    background-position: 1060px -70px, 850px 250px;
-    background-size: 300px 300px, 450px;
+    background-position: 1150px -70px;
+    background-size: 200px 200px;
+}
+
+.subBox {
+    margin: auto;
+    font-family: Roboto;
+    padding: 50px;
+    padding-bottom: 25px;
+    border: 2px solid white ;
+
+    background-image: url(assets/headshot.png);
+    background-repeat: no-repeat;
+    background-position: 115% 105%;
+    background-size: 475px;
 }
 
 .header {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    background-color: white;
 }
 
 .flexBox {
@@ -52,4 +65,8 @@
 
 p, a, h1, h2, h3 {
     color: white;
+}
+
+a {
+    text-decoration: none;
 }
