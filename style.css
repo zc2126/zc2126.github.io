@@ -39,10 +39,10 @@
     padding-bottom: 30px;
     border: 2px solid white ;
 
-    background-image: url(assets/headshot.png);
+    background-image: url(assets/headshot_small.png);
     background-repeat: no-repeat;
-    background-position: 115% 105%;
-    background-size: 475px;
+    background-position: 115% 100%;
+    background-size: 450px;
 }
 
 .subBox {
