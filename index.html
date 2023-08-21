@@ -6,43 +6,91 @@
 		<link rel="stylesheet" href="style.css">
     </head>
 
-    <body style = "background-color: #001E33">
+    <body>
 		<div class="mainBox">
 			<!--Header and nav bar-->
-			<div class="header" style="margin: auto; color: #003152">
+			<div class="header" style="margin: auto;">
 				<!--Name and logo-->
 				<div class="flexBox" style="justify-content:left; width: 48%; align-items: center;">
 					<img src = "assets/placeholder2.png" style = "height: 80px; margin-right: 5%; margin-left: 3%">
-					<h1 style = "font-size: 250%;">Jeremy Cao</h1>
+					<h1 style = "font-size: 42px; color: #002827">Jeremy Cao</h1>
 				</div>
 
 				<!--Navbar-->
-				<div class="flexBox" style="justify-content: right; width: 48%; font-size: 115%; align-items: center;">
-					<a style = "margin-right: 5%; color: #003152;"><b>Home</b></a>
-					<a style = "margin-right: 5%; color: #003152;" href = "resume.html">My Resume</a>
-					<a style = "margin-right: 5%; color: #003152;" href = "projects.html">My Projects</a>
-					<a style = "margin-right: 8%; color: #003152;" href = "interests.html">My Interests</a>
+				<!--<div class="flexBox" style="justify-content: right; width: 48%; font-size: 20px; align-items: center;">
+					<a href = "index.html">Home</a>
+					<a href = "resume.html">Resume</a>
+					<a href = "projects.html">Projects</a>
+					<a href = "contact.html">Contact</a>
+					<a href = "interests.html">Interests</a>
+				</div>-->
+
+				<!--Contact Information-->
+				<div class = "flexBox" style="justify-content: right; width: 48%; font-size: 20px; align-items: center;">
+					<a href="https://www.github.com/zc2126">
+						<div class = "flexBox" style = "margin: 0px; padding: 0px; align-items: center;">
+							<img src = "/assets/github-mark.png" style = "height:20px; padding-right:5px; ">
+							<p style = "font-size: 20px;">GitHub</p>
+						</div>
+					</a>
+					<a href="mailto:jeremy.cao@nyu.edu">
+						<div class = "flexBox" style = "margin: 0px; padding: 0px; align-items: center;">
+							<img src = "/assets/mail.png" style = "height:20px; padding-right:5px; ">
+							<p style = "font-size: 20px;">Email</p>
+						</div>
+					</a>
+					<a href="https://www.linkedin.com/in/jeremy-cao-ab1b89210/">
+						<div class = "flexBox" style = "margin: 0px; padding: 0px; align-items: center;">
+							<img src = "/assets/linkedin.png" style = "height:20px; padding-right:5px; ">
+							<p style = "font-size: 20px;">LinkedIn</p>
+						</div>
+					</a>
 				</div>
 			</div>
 
 			<!--Welcome message and picture-->
-			<div class = "mainSubBox" style="height: 500px; color: white;">
-				<h1 style = "padding-left: 25px; padding-top: 10%; font-size: 325%; margin-bottom: 0px; color: #6EBBC4">Hi There,</h1>
-				<h1 style = "padding-left: 25px; font-size: 325%; margin-top: 0px; margin-bottom: 15px">Welcome to My Website!</h1>
-				<p style = "padding-left: 25px; width: 700px; margin-top: 0px">My name is Jeremy Cao and I'm a Computer Science and Politics student at New York University. Combining these two fields, I've taken an interest in backend engineering, IT policy, and more recently frontend development.<br><br>Thanks for visiting!</p>
-				
-				<!--Contact Info-->
-				<div class = "flexBox" style="justify-content: left; align-items: center;">
-					<img src = "assets/phone.png" style = "height: 2em; padding-left: 5px; margin-top: 15px;">
-					<p style="margin-left:8px; margin-top: 30px;">+1 (347) 770-2360</p>
+			<div class = "mainSubBox" style="height: 500px; color: #002827; margin-left: 20px;">
+				<h1 style = "padding-top: 115px; font-size: 65px; margin-bottom: 0px; color: #339d9b">Hi There!</h1>
+				<h1 style = "font-size: 50px; margin-top: 0px; margin-bottom: 15px">Welcome to My Website</h1>
+				<p style = "width: 700px; margin-top: 0px; font-size: 18px;">My name is Jeremy Cao and I'm a Computer Science and Politics student at New York University. Combining these two fields, I've taken an interest in system design, IT policy, and recently front end development!</p>
 
-					<img src = "assets/mail.png" style = "height: 3em; padding-left: 35px; margin-top: 15px;">
-					<a style="color: white; font-size:105%; margin-left:8px; margin-top: 15px;" href="mailto:jeremy.cao@nyu.edu">jeremy.cao@nyu.edu</a>
-
-					<img src = "assets/doc.png" style = "height: 2em; padding-left: 35px; margin-top: 15px;">
-					<a style="margin-left:8px; margin-top: 15px; font-size: 105%; color: white;" href="assets/JeremyCao-Resume.pdf" download>Download My Resume</a>
+				<div class = "buttonBox">
+					<a href="assets/JeremyCao-Resume.pdf">Download Resume</a>
 				</div>
+
+				<!--Contact Info
+				<div class = "flexBox" style = "align-items: center; padding-top: 15px;">
+					<a href="mailto:jeremy.cao@nyu.edu"><img src = "assets/mail.png" style = "height: 3em;"></a>
+					<a href="https://www.github.com/zc2126"><img src = "assets/github-mark.png" style = "padding-left: 25px; height: 2.5em;"></a>
+				</div>-->
 			</div>
 		</div>
+
+		<!--<div class="mainBox">
+			<h1 style = "padding-left: 20px; font-size: 42px;">Skills</h1>
+
+			<h2 style = "padding-left: 20px; margin-bottom: 0; font-size: 24px;">Technologies</h2>
+			<div class = "flexBox"  style = "padding-left: 20px; font-size: 18px; justify-content: space-around;">
+				<p>Python</p>
+				<p>C/C++</p>
+				<p>HTML & CSS</p>
+				<p>PyTorch</p>
+				<p>SQL</p>
+				<p>Swift</p>
+				<p>Microsoft Office Suite</p>
+			</div>
+
+			<hr>
+
+			<h2 style = "padding-left: 20px; margin-bottom: 0; font-size: 24px;">Interpersonal</h2>
+			<div class = "flexBox"  style = "padding-left: 20px; font-size: 18px; justify-content: space-around;">
+				<p>Project Management</p>
+				<p>Agile Development</p>
+				<p>Organization</p>
+				<p>Communication</p>
+				<p>English</p>
+				<p>Chinese</p>
+			</div>
+		</div>-->
     </body>
 </html>
