@@ -28,8 +28,8 @@ body {
         #003152 50%,
         #008582 100%
     );
-    background-size: 400% 400%;
-    animation: move-forever 18s infinite;
+    background-size: 500% 400%;
+    animation: move-forever 12s infinite;
 }
 
 .mainBox {
