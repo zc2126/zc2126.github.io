@@ -1,0 +1,4 @@
+.ExperienceTile {
+    display: flex;
+    flex-direction: row;
+}
